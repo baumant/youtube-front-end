@@ -1,0 +1,223 @@
+
+body {
+	margin: 0;
+}
+.container {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #C8E6C9;
+	display: inline-block;
+	
+}
+
+.center {
+	background-color: #A5D6A7;
+	width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	padding: 0;
+	display: block;
+	
+}
+
+
+/* ----------------------------------------------------------------------Navigation Bar----------------------------------------------------------------------------------- */
+header {
+	background-color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	padding: 3px 0 3px 0;
+	width: 100%;
+	display: inline-block;
+	position: fixed;
+}
+
+.navcontainer {
+	height: 30px;
+	margin-top: 7px;
+	margin-bottom: 8px;
+	margin-left: 30px;
+	marginin-right: 30px;
+	overflow: hidden;
+}
+
+.logocontainer{
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	
+}
+
+.logo {
+	background: url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflV1yHHa.webp) -142px -48px;
+	background-size: auto;
+	width: 72px;
+	height: 30px;
+	display: inline-block;
+}
+
+.linebtn{
+	display: inline-block;
+	width: auto;
+	height: 30px;
+	vertical-align: top;
+
+	
+}
+.lines {
+	background-image: url(lines.png);
+	background-size: auto;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: none;
+}
+.searchcontainer{
+	display: inline-block;
+	width: 50%;
+	max-width: 660px;
+	min-width: 300px;
+	height: 30px;
+	position: absolute;
+}
+form{
+	display: inline;
+}
+
+input[type="search"]{
+	height: 30px;
+	width: 85%;
+	margin-bottom: 10px;
+	border: 1px solid rgb(211, 211, 211);
+}
+
+input[type="search"]::-webkit-search-cancel-button {  -webkit-appearance: none; }
+
+.search{
+	border: 1px solid rgb(211, 211, 211);
+	border-left: none;
+	display: inline-block;
+	position: absolute;
+	padding-left: 22px;
+	padding-top: 2px;
+	padding-right: 22px;
+	padding-bottom: 3px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	
+}
+
+.searchbtn{
+	background-image: url(search.png);
+	width: 25px;
+	height: 22px;
+	border: none;
+	
+}
+
+
+
+.usercontainer{
+	display: block;
+	margin-right: 15px;
+	width: 17%;
+	height: 30px;
+	float: right;
+	positon: fixed;
+	
+	
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding: 8px;
+}
+
+.upload {
+	border-radius: 2px;
+	color: black;
+	font-size: 11px;
+	padding: 7px 10px 7px 10px;
+	border: solid rgb(211, 211, 211) 1px;
+	background: 0;
+}
+
+#bell {
+	background-image: url(bell.png);
+	border-radius: 50%;
+	width: 30px;
+	height: 29px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#user {
+	background-image: url(https://lh4.googleusercontent.com/-D1o8vt5GBmo/AAAAAAAAAAI/AAAAAAAAAAA/0lmvzqO3KNY/s32-c/photo.jpg);
+	background-size: 27px;
+	border-radius: 50%;
+	width: 27px;
+	height: 27px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*------------------------------------------------------------------------ Videos---------------------------------------------------------------------------------------- */
+.video {
+	padding: 0;
+	margin-bottom: 10px;
+	width: 640px;
+	height: 480px;
+	display: inline-block;
+	
+}
+
+/*---------------------------------------------------------------- Related Videos Sidebar---------------use an unordered list------------------------------------------- */
+.related {
+	background-color: #388E3C;
+	width: 410px;
+	height: 2000px;
+	margin-bottom: 10px;
+	float: right;
+}
+
+/* ---------------------------------------------------------------------------Video Details----------------------------------------------------------------------------- */
+.details {
+	background-color: #388E3C;
+	width: 640px;
+	height: 140px;
+	margin-bottom: 10px;
+}
+
+/*------------------------------------------------------------------ Video Description ----------------------------------------------------------------------------------*/
+.description {
+	background-color: #388E3C;
+	width: 640px;
+	height: 120px;
+	margin-bottom: 10px;
+}
+
+/* ----------------------------------------------------------------------Comments Section ------------------------------------------------------------------------------*/
+.comments {
+	background-color: #388E3C;
+	width: 640px;
+	height: 640px;
+	margin-bottom: 10px;
+}
+
+/*------------------------------------------------------------------------------- Footer -----------------------------------------------------------------------------------*/
+.footer {
+	background-color: #388E3C;
+	width: 100%;
+	height: 120px;
+	
+}
+
