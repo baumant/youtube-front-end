@@ -1,2 +1,2 @@
 # youtube-front-end
-Practicing Embedding Meida
+Practicing Embedding Media in HTML
